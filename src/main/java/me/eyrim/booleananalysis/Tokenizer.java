@@ -1,15 +1,10 @@
 package me.eyrim.booleananalysis;
 
 
-import me.eyrim.booleananalysis.enums.TokensEnum;
-
 import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class Tokenizer {
     private final File sourceFile;
@@ -21,20 +16,20 @@ public class Tokenizer {
     }
 
     public void tokenize() {
-        TreeNode[] trees = new TreeNode[this.fileData.length];
+        Tree[] trees = new Tree[this.fileData.length];
 
         for (int i = 0; i < this.fileData.length; i++) {
             trees[i] = generateTree(this.fileData[i]);
         }
     }
 
-    private static TreeNode generateTree(String line) {
-        TreeNode root = new TreeNode(null, null);
+    private static Tree generateTree(String line) {
+        Tree root = new Tree();
 
         return root;
     }
 
-    // Split on /[\(.\)]/
+    // ~~Split on /[\(.\)]/~~
     private static String[] readFile(File sourceFile) {
         List<String> file = new ArrayList<>();
 

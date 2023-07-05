@@ -1,13 +1,15 @@
 package me.eyrim.booleananalysis;
 
+import me.eyrim.booleananalysis.brackets.BracketMatcher;
+
 import java.io.File;
 
 public class Main {
     public static void main(String[] args) {
         try {
-            Tokenizer tokenizer = new Tokenizer(new File("D:\\projects\\Boolean\\src\\main\\resources\\data.csv"));
+            BracketMatcher matcher = new BracketMatcher("OR(AND(OR(1, 1), 1), NOT(0))");
 
-            tokenizer.tokenize();
+            matcher.getMatches();
         } catch (Exception e) {
             e.printStackTrace();
         }

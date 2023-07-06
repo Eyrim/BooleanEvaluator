@@ -1,9 +1,6 @@
 package me.eyrim.booleananalysis.brackets;
 
-import java.util.AbstractMap;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Hashtable;
+import java.util.*;
 
 public class BracketMatcher {
     private final String stream;
@@ -12,15 +9,26 @@ public class BracketMatcher {
         this.stream = stream;
     }
 
-    public ArrayList<AbstractMap.SimpleEntry<Character, Integer>> getMatches() {
+    public HashMap<Integer, Integer> getMatches() {
         BracketConsumer consumer = new BracketConsumer(this.stream);
-//        HashMap<Character, Integer> matched = new HashMap<>();
-        ArrayList<AbstractMap.SimpleEntry<Character, Integer>> matched = new ArrayList<AbstractMap.SimpleEntry<Character, Integer>>();
+        HashMap<Integer, Integer> matched = new HashMap<>();
         AbstractMap.SimpleEntry<Character, Integer> current;
+        // Stores the indexes in the stream that open brackets appear
+        Stack<Integer> history = new Stack<>();
 
         // While there is still more to evaluate
         while ((current = consumer.next()) != null) {
-            matched.add(current);
+            if (current.getKey() == '(') {
+                // Add to stack
+                history.add(current.getValue());
+            } else { // consumer will only return ( and )
+                try {
+                    // Pop stack and add values to hashtable
+                    matched.put(history.pop(), current.getValue());
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
         }
 
         return matched;

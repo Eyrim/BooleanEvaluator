@@ -52,7 +52,7 @@ public class BracketConsumer {
      * @return Whether there is more stream to consume
      */
     public boolean end() {
-        return this.currentPos >= this.stream.length();
+        return this.currentPos <= this.stream.length();
     }
 
     /**

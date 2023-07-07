@@ -1,8 +1,6 @@
 package me.eyrim.booleananalysis.enums;
 
-import java.util.function.Function;
-
-public enum TokensEnum {
+public enum BooleanEnum {
     OR,
     NOR,
     NOT,

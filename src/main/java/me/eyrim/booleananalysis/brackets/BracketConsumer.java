@@ -5,8 +5,11 @@ import me.eyrim.booleananalysis.enums.DelimiterEnum;
 import java.util.AbstractMap;
 
 public class BracketConsumer {
+    // The stream being evaluated
     private final String stream;
+    // Current position in the input stream
     private int currentPos = 0;
+    // The most recent found pair
     private AbstractMap.SimpleEntry<Character, Integer> last;
 
     public BracketConsumer(String stream) {

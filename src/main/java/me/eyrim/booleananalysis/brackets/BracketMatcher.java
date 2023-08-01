@@ -4,13 +4,19 @@ import me.eyrim.booleananalysis.enums.DelimiterEnum;
 
 import java.util.*;
 
+// TODO: 01/08/2023 Make static?
 public class BracketMatcher {
+    // The stream being evaluated
     private final String stream;
 
     public BracketMatcher(String stream) {
         this.stream = stream;
     }
 
+    /**
+     * Finds where each set of brackets opens and closes
+     * @return HashMap&lt;Integer, Integer&gt; in the format: Opening index, Closing index
+     */
     public HashMap<Integer, Integer> getMatches() {
         HashMap<Integer, Integer> matched = new HashMap<>();
         BracketConsumer consumer = new BracketConsumer(this.stream);

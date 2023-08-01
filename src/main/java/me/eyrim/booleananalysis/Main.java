@@ -2,7 +2,6 @@ package me.eyrim.booleananalysis;
 
 import me.eyrim.booleananalysis.brackets.BracketMatcher;
 
-import java.io.File;
 
 public class Main {
     public static void main(String[] args) {

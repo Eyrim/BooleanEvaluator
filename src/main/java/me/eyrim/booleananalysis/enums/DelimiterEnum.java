@@ -1,8 +1,8 @@
 package me.eyrim.booleananalysis.enums;
 
 public enum DelimiterEnum {
-    VALID_OPENING('(','[', '{'),
-    VALID_CLOSING( ')', ']', '}');
+    OPEN('(','[', '{'),
+    CLOSE( ')', ']', '}');
 
     private DelimiterEnum(char... values) {
         this.values = values;

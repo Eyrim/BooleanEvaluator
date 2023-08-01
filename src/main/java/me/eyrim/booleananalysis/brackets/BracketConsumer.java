@@ -1,6 +1,7 @@
 package me.eyrim.booleananalysis.brackets;
 
-import java.io.File;
+import me.eyrim.booleananalysis.enums.DelimiterEnum;
+
 import java.util.AbstractMap;
 
 public class BracketConsumer {
@@ -31,9 +32,8 @@ public class BracketConsumer {
             // Get current char
             currentChar = this.stream.charAt(this.currentPos);
 
-            //TODO: Change to be parameterised
-            if (currentChar == '(' ||
-                currentChar == ')') {
+            // If the current character is a valid opening OR closing bracket as defined in DelimiterEnum
+            if (DelimiterEnum.OPEN.isValid(currentChar) || DelimiterEnum.CLOSE.isValid(currentChar)) {
                 this.last = new AbstractMap.SimpleEntry<>(currentChar, this.currentPos);
                 this.currentPos++;
 

@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="09288c31-953d-4014-a020-9558bee03fb3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/brackets/BracketConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/brackets/BracketConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/brackets/BracketMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/brackets/BracketMatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/enums/DelimiterEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/enums/DelimiterEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestBracketMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBracketMatcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

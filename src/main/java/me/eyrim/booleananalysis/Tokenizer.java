@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+@Deprecated
 public class Tokenizer {
     private final File sourceFile;
     private final String[] fileData;

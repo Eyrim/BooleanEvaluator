@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09288c31-953d-4014-a020-9558bee03fb3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestBooleanEnumEvaluation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/brackets/BracketConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/brackets/BracketConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/brackets/BracketMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/brackets/BracketMatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/enums/DelimiterEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/enums/DelimiterEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/Tokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/Tokenizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/enums/BooleanEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/enums/BooleanEnum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,18 +36,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last.edited.regexp": "OR(1, 1)"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.All in Boolean">
+}]]></component>
+  <component name="RunManager" selected="JUnit.TestBooleanEnumEvaluation.booleanEnumEvaluation">
     <configuration name="All in Boolean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Boolean" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBooleanEnumEvaluation.booleanEnumEvaluation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Boolean" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestBooleanEnumEvaluation" />
+      <option name="METHOD_NAME" value="booleanEnumEvaluation" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestBooleanEnumEvaluation.booleanEnumEvaluation" />
         <item itemvalue="JUnit.All in Boolean" />
         <item itemvalue="JUnit.TestBracketMatcher" />
         <item itemvalue="JUnit.TestValidator" />
@@ -101,5 +114,10 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Boolean$Main.ic" NAME="Main Coverage Results" MODIFIED="1691509376611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>me.eyrim.booleananalysis.*</FILTER>
+    </SUITE>
   </component>
 </project>

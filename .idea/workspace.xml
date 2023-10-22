@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09288c31-953d-4014-a020-9558bee03fb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestBooleanEnumEvaluation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/Tokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/Tokenizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/enums/BooleanEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/eyrim/booleananalysis/enums/BooleanEnum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +38,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last.edited.regexp": "OR(1, 1)"
+    "last.edited.regexp": "OR(1, 1)",
+    "last_opened_file_path": "D:/projects/Boolean"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestBooleanEnumEvaluation.booleanEnumEvaluation">
+  <component name="RunManager">
     <configuration name="All in Boolean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Boolean" />
       <option name="PACKAGE_NAME" value="" />
